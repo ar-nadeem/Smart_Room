@@ -1,0 +1,82 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+
+    <title>Smart Room</title>
+  </head>
+  <body>
+
+  <div class="container-fluid border mb-2 border-dark rounded-lg" >
+	
+	<div class="row mt-2">
+	<a href="/relay1" type="button" class="btn  {% if relay1 == 'on' %}btn-success{% else  %}btn-danger{%  endif %} btn-lg">Relay 1</a>
+	</div>
+
+	<div class="row mt-2">
+	<a href="/relay2" type="button" class="btn  {% if relay2 == 'on' %}btn-success{% else  %}btn-danger{%  endif %} btn-lg">Relay 2</a>
+	</div>
+
+	<div class="row mt-2">
+	<a href="/relay3" type="button" class="btn  {% if relay3 == 'on' %}btn-success{% else  %}btn-danger{%  endif %} btn-lg">Relay 3</a>
+	</div>
+
+	<div class="row mt-2">
+	<a href="/relay4" type="button" class="btn  {% if relay4 == 'on' %}btn-success{% else  %}btn-danger{%  endif %} btn-lg">Relay 4</a>
+	</div>
+
+	<div class="row mt-2">
+	<a href="/relay5" type="button" class="btn  {% if relay5 == 'on' %}btn-success{% else  %}btn-danger{%  endif %} btn-lg">Relay 5</a>
+	</div>
+
+	<div class="row mt-2">
+	<a href="/relay6" type="button" class="btn  {% if relay6 == 'on' %}btn-success{% else  %}btn-danger{%  endif %} btn-lg">Relay 6</a>
+	</div>
+
+	<div class="row mt-2">
+	<a href="/relay7" type="button" class="btn  {% if relay7 == 'on' %}btn-success{% else  %}btn-danger{%  endif %} btn-lg">Relay 7</a>
+	</div>
+
+	<div class="row mt-2">
+	<a href="/relay8" type="button" class="btn  {% if relay8 == 'on' %}btn-success{% else  %}btn-danger{%  endif %} btn-lg">Relay 8</a>
+	</div>
+
+	<div class="row mt-2">
+	<a href="/all_on" type="button" class="btn  btn-warning btn-lg">ALL ON</a>
+	</div>
+
+	<div class="row mt-2">
+	<a href="/all_off" type="button" class="btn  btn-warning btn-lg">ALL OFF</a>
+	</div>
+
+
+    
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
